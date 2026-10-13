@@ -87,19 +87,21 @@ facebook-photo-downloader/
 
 ## 🚀 How to Install in Google Chrome
 
-1. Build the extension (already pre-built in `dist/`):
+1. Clone or download the repository:
    ```bash
-   cd /Users/mahmoudhodhod/.gemini/antigravity-ide/scratch/facebook-photo-downloader
+   git clone https://github.com/Mahmoudhodhod/facebook-page-photo-downloader.git
+   cd facebook-page-photo-downloader
+   ```
+2. Install dependencies & build (already pre-built in `dist/`):
+   ```bash
+   npm install
    npm run build
    ```
-2. Open Google Chrome and go to `chrome://extensions/`.
-3. In the top-right corner, enable **Developer mode** (وضع مطور البرامج).
-4. Click the **Load unpacked** (تحميل برمجية غير معبأة) button.
-5. In the file picker, select the `dist` folder located at:
-   ```
-   /Users/mahmoudhodhod/.gemini/antigravity-ide/scratch/facebook-photo-downloader/dist
-   ```
-6. The extension **Facebook Page Photo Downloader** is now installed and will appear in your Chrome toolbar.
+3. Open Google Chrome and go to `chrome://extensions/`.
+4. In the top-right corner, enable **Developer mode** (وضع مطور البرامج).
+5. Click the **Load unpacked** (تحميل برمجية غير معبأة) button.
+6. In the file picker, select the `dist` folder inside the project.
+7. The extension **Facebook Page Photo Downloader** is now installed and will appear in your Chrome toolbar.
 
 ---
 
