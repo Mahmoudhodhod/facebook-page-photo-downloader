@@ -1,0 +1,30 @@
+{
+  "name": "facebook-photo-downloader",
+  "version": "1.0.0",
+  "description": "Chrome extension to scan and download high-resolution photos and albums from Facebook Pages directly to a selected folder",
+  "author": "Mahmoud Hodhod",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "check": "tsc --noEmit",
+    "test": "tsx test/extension.test.ts",
+    "build:main": "vite build",
+    "build:content": "vite build --config vite.content.config.ts",
+    "build": "tsc --noEmit && vite build && vite build --config vite.content.config.ts"
+  },
+  "dependencies": {
+    "idb": "^8.0.2",
+    "lucide-react": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.312",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.23.15",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}
